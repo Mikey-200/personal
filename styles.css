@@ -1,0 +1,263 @@
+@media only screen and (width < 700px) {
+  .firstphasenotes {
+    margin: 0 auto;
+  }
+  .firstphasenotes > p {
+    width: 96% !important;
+    display:inline-block !important;
+    margin: 20px 2%;
+  }
+  .ourgoalarticle > p {
+    width: 90% !important;
+  }
+  .programstuff {
+    display: block !important;
+    margin: 0% 1.5% !important;
+    float: none !important;
+  }
+  .programstuff > p {
+    display: inline-block;
+    width: 97% !important;
+    height: 130px !important;
+    padding: 10px !important;
+  }
+  .shortnoteofinterest {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+  .shortnoteofinterest > p {
+    width: 90% !important;
+  }
+  .schoolpics > div {
+    display: block !important;
+    float: none !important;
+    margin: 0 auto !important;
+  }
+  .schoolpics > div > p {
+    width: 95% !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    margin: 0 2.5% !important;
+    height: auto !important;
+    float: none !important;
+  }
+  .footerarea {
+    float: none !important;
+  }
+  .footerarea > div {
+    display: inline-block;
+    width: 95% !important;
+    margin: 0% 2.5% !important;
+  }
+  .rightfloatonlbar {
+    display: none !important;
+  }
+  .logoholder {
+    width: 100% !important;
+    height: 80px !important;
+    padding: 2px !important;
+  }
+  .logoholder > img {
+    margin: 0% 41% !important;
+  }
+  .menusidebar {
+    width: 70% !important;
+    margin-top: 20px !important;
+  }
+  .contactinputt {
+
+    width: 100% !important;
+  }
+  .contactinputt > div {
+    float: none !important;
+    display: inline-block !important;
+    width: 95% !important;
+    margin: 0% 2% !important;
+    padding: 2% !important;
+  }
+  input[type = "text"], input[type="email"] {
+    width: 96% !important;
+  }
+  textarea {
+    width: 96% !important;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+* {
+  box-sizing:border-box;
+}
+html, body {
+  margin:0;
+  padding:0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.stickybar {
+  position: sticky;
+  top:0px;
+  border-radius: 3px;
+  background: white;
+}
+.rightfloatonlbar > p {
+  height: 70px;
+}
+.menubar > p {
+  color:white;
+  margin-left: 1%;
+}
+.firstphasenotes {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+.firstphasenotes > p {
+  float: left;
+  width: 33.3333%;
+  border:0px solid grey;
+  background: grey;
+  clear: right;
+}
+.rightfloatonlbar {
+  width: 30%;
+
+  margin-left:40%
+}
+.rightfloatonlbar > p {
+  text-align: center;
+  box-sizing: border-box !important;
+  padding: 6px;
+  height: 40px;
+  width: 30%;
+  margin-right: 1%;
+}
+.menusidebar {
+  margin-top: 10px;
+  position: fixed !important;
+  width: 32%;
+  height: 100% !important;
+  background: black;
+  color: white;
+  overflow: auto;
+  line-height: 14px;
+}
+.programstuff {
+  width: 100%;
+  display: flex;
+  justify-content:space-evenly;
+}
+.programstuff > p {
+  float: left;
+  width: 30%;
+  border:1px outset grey;
+  border-radius: 2px;
+  height: 140px;
+  padding: 15px;
+}
+.programstuff > p > b {
+  font-size: 20px;
+}
+.schoolpics {
+  width: 100%;
+}
+.schoolpics > div {
+  display: inline;
+  float: left;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.schoolpics > div > p {
+  width: 33%;
+  min-height: auto;
+  padding: 3px;
+  float: left;
+  margin: 0 auto;
+}
+.schoolpics > div > p > img {
+  width: 100%;
+  height: auto;
+}
+.menusonsidebar > p {
+  width: 90%;
+  height: 40px;
+  margin-bottom: 5px;
+  margin: 1% 5% 0% 5%;
+  padding:13px 0px 5px 10px;
+  border-radius: 3px;
+  text-align: left;
+}
+.menusonsidebar {
+  overflow-y: auto;
+}
+.menusonsidebar > p:hover {
+  background: grey;
+  color: black;
+}
+@keyframes menusidebar {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.faqcontainer > b {
+  display: none;
+  cursor: pointer;
+}
+.faqcontainer > p {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+}
+.faqcontainer > p:hover {
+  background: grey;
+}
+.faqcontainer > div {
+  background: grey;
+  border: 2px outset white;
+  padding: 15px;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.hidq {
+  display: none;
+}
+.footerarea > div {
+  width: 33.33%;
+  height: auto;
+  padding: 50px;
+  margin: 0 auto;
+  float: left;
+}
+input[type = "text"], input[type="email"] {
+    border: 0px outset #d0cece;
+    margin: 10px auto;
+    height: 40px;
+    background: #B1AFAF;
+    border-radius: 2px;
+    width: 90%;
+}
+textarea {
+  border: 0px outset #d0cece;
+  margin: 10px auto;
+  background: #B1AFAF;
+  border-radius: 2px;
+  resize: none;
+  width: 90%;
+}
+.contactinputt > div {
+  width: 50%;
+  height: auto;
+  padding: 20px;
+  float: left;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
