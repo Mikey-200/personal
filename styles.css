@@ -1,4 +1,8 @@
 @media only screen and (width < 700px) {
+  body, html {
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
   .firstphasenotes {
     margin: 0 auto;
   }
